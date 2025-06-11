@@ -1,0 +1,116 @@
+* {
+    /* opacity: 0.9; */
+    /* border: 1px solid red; */
+}
+
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    align-items: center;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: seashell;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.whatson {
+    margin: 0 15px 15px;
+
+}
+
+.featured-pic {
+    width: 300px;
+    height: 200px;
+}
+
+.location-box {
+    background-color: black;
+    opacity: 1;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 0 1 300px;
+}
+
+.address {
+    line-height: 3em;
+}
+
+#logo {
+    height: 50px;
+}
+
+#mission {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*kc88qw*_ga*MzE3NDIyNDYyNS4xNjYxNTE1NTcz*_ga_3LRZM6TM9L*MTY3NDkxMjU3NS4xMzcuMS4xNjc0OTIyMDYyLjAuMC4w');
+    background-position: center;
+}
+
+#mission-banner {
+    background-color: black;
+    width: 1200px;
+}
+
+#featured-banner {
+    margin: 30px 0;
+}
+
+#featured-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+}
+
+#locations {
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*kc88qw*_ga*MzE3NDIyNDYyNS4xNjYxNTE1NTcz*_ga_3LRZM6TM9L*MTY3NDkxMjU3NS4xMzcuMS4xNjc0OTIyMDYyLjAuMC4w');
+    background-position: center;
+    min-height: 500px;
+    box-sizing: border-box;
+    padding: 55px;
+}
+
+#locations-flexbox {
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15px;
+}
