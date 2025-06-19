@@ -18,7 +18,7 @@ Beyond that, this project gave me the opportunity to practice responsive design,
 ## How to Use:
 To view the portfolio locally, simply clone the repository and open the `index.html` file in your browser — no installation or build tools required.
 
-You can also explore the live version of the site here: **[Live Demo](#)**
+You can also explore the live version of the site here: **[Live Demo](https://ars-dombrovsky.github.io/codecademy/portfolio_projects/personal_portfolio/)**
 
 ## Technologies:
 - **HTML5** – Structure and semantic content  
