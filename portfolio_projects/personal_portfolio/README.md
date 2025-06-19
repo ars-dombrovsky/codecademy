@@ -1,20 +1,35 @@
-# Project Title:
-the name of your project
+# Arseny Dombrovsky – Personal Portfolio
 
-# Description:
-This is an extremely important component of the README. You should describe the main purpose of your project. Answer questions like “why did you build this project?” and “what problem(s) does it solve?”. It also helps to include your motivations for the project and what you learned from it.
+## Description:
+This portfolio website was created as part of my full stack web development learning journey. It serves as a space to showcase my work, highlight my skills and certifications, and allow visitors to get in touch with me.
 
-# Features:
-If your project has multiple features, list them here. Don’t be afraid to brag if your project has unique features that make it stand out. You can even add screenshots and gifs to show off the features.
+Beyond that, this project gave me the opportunity to practice responsive design, work with Flexbox layouts, explore accessibility features, and implement interactive elements using JavaScript — all while focusing on writing clean, maintainable code.
 
-# How to use:
-Here, you should write step-by-step instructions on how to install and use your project. Any software or package requirements should also be listed here.
+## Features:
+- Fully responsive design for mobile, tablet, and desktop  
+- Project showcase with images, descriptions, and technology tags  
+- Contact form for direct communication  
+- Links to social media profiles  
+- JavaScript-powered interactivity (e.g., dynamic elements, form handling)  
+- Accessibility considerations using semantic HTML and best practices  
+- Clean, modern layout using CSS Flexbox  
+- Hover effects for buttons and project cards
 
-# Technologies:
-List all the technologies and/or frameworks you used and what purpose they serve in your project.
+## How to Use:
+To view the portfolio locally, simply clone the repository and open the `index.html` file in your browser — no installation or build tools required.
 
-# Collaborators:
-If others have contributed to your project in any way, it is important to give them credit for their work. Write your team members’ or collaborators’ names here along with a link to their GitHub profile.
+You can also explore the live version of the site here: **[Live Demo](#)**
 
-# License:
-It’s also important to list a license on your README so other developers can understand what they can and cannot do with your project. You can use this guide to help you choose a license.
+## Technologies:
+- **HTML5** – Structure and semantic content  
+- **CSS3** – Styling, layout with Flexbox, hover effects  
+- **JavaScript** – Interactivity and dynamic behavior  
+- **Git** – Version control  
+- **GitHub Pages** – Project hosting and deployment
+
+## Collaborators:
+This is a solo project built entirely by me, **Arseny Dombrovsky**.
+
+## License:
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+You are free to use, modify, and distribute this project with proper attribution.
