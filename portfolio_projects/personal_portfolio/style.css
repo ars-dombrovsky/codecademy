@@ -1,0 +1,93 @@
+/* ########## TAG ########## */
+
+* {
+    /* border: 1px solid red; */
+}
+
+html {
+    background-color: #212A31;
+    color: #D3D9D4;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #EFF0EF;
+    text-decoration: underline dotted 1px;
+}
+
+a:visited {
+    color: #B2BDB5;
+}
+
+a:hover {
+    text-decoration: underline solid 1px;
+}
+
+h1 {
+    font-family: "Proza Libre", sans-serif;
+}
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0.4em 0 0.83em;
+}
+
+h3 {
+    font-family: "Proza Libre", sans-serif;
+}
+
+h4 {
+    font-family: "Proza Libre", sans-serif;
+}
+
+/* ########## CLASS ########## */
+
+.profile-pic {
+    background-image: url("img/profile.jpg");
+    background-size: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 15%;
+}
+
+.plate {
+    padding: 20px 30px;
+    margin: 20px 0;
+    background-color: #124E66;
+    border-radius: 30px;
+}
+
+
+.plate-content {
+    
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.grid {
+    border: 1px dotted white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(227px, 1fr));
+    gap: 30px;
+}
+
+.box {
+    border: 1px dotted grey;
+    margin: auto;
+}
+
+/* ########## ID ########## */
+
+#body {
+    width: 80%;
+    min-width: 531px;
+    max-width: 1024px;
+    margin: auto;
+}
