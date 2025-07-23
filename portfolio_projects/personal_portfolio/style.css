@@ -65,13 +65,11 @@ h4 {
 
 .flexbox {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
 
 .grid {
-    border: 1px dotted white;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(227px, 1fr));
@@ -79,8 +77,7 @@ h4 {
 }
 
 .box {
-    border: 1px dotted grey;
-    margin: auto;
+
 }
 
 /* ########## ID ########## */
@@ -90,4 +87,9 @@ h4 {
     min-width: 531px;
     max-width: 1024px;
     margin: auto;
+}
+
+#skills {
+    align-items: stretch;
+    justify-content: space-evenly;
 }
