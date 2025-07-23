@@ -54,7 +54,7 @@ h4 {
 .plate {
     padding: 20px 30px;
     margin: 20px 0;
-    background-color: #124E66;
+    /* background-color: #124E66; */
     border-radius: 30px;
 }
 
@@ -86,7 +86,7 @@ h4 {
 /* ########## ID ########## */
 
 #body {
-    width: 80%;
+    width: 90%;
     min-width: 531px;
     max-width: 1024px;
     margin: auto;
